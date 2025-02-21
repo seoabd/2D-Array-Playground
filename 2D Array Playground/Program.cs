@@ -24,9 +24,22 @@ namespace _2DArray_playground
             {
                 for (int j = 0; j < cols; j++)
                 {
-                    grid [i, j] = (i * j) + 1;
+                    grid [i, j] = (i * j);
                     Console.WriteLine(grid [i, j]);
-                    Console.Write(grid [i, j] + "*");
+
+                    if (grid[i, j] == 0)
+                    {
+                        grid [i, j] = 1;
+                    }
+
+                    if (grid[i, j] == 1)
+                    {
+                        grid [i, j] = 2;
+                    }
+                    else
+                    {
+                        grid [i, j] = 3;
+                    }
                 }
             }
         }
