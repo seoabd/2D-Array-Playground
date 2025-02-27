@@ -19,7 +19,7 @@ namespace _2DArray_playground
             int cols = int.Parse(Console.ReadLine());
             
             int [,] grid = new int[rows, cols];
-
+            
             for (int i = 0; i < rows; i++)
             {
                 for (int j = 0; j < cols; j++)
@@ -35,9 +35,13 @@ namespace _2DArray_playground
                     {
                         grid [i, j] = 2;
                     }
-                    else
+                    if (grid[i, j] == 2)
                     {
                         grid [i, j] = 3;
+                    }
+                    else
+                    {
+                        grid[i, j] = '*';
                     }
                     Console.Write(grid[i, j] + " ");
                 }
