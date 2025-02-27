@@ -7,8 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f26126e5-04aa-4bf9-90d8-e0f6c48aa362" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.2D Array Playground/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D Array Playground/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f26126e5-04aa-4bf9-90d8-e0f6c48aa362" name="Changes" comment="init commit">
       <change beforePath="$PROJECT_DIR$/2D Array Playground/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2D Array Playground/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +89,7 @@
       <updated>1740040676346</updated>
       <workItem from="1740040679060" duration="1353000" />
       <workItem from="1740043440723" duration="1101000" />
-      <workItem from="1740129853573" duration="520000" />
+      <workItem from="1740129853573" duration="868000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -116,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740041563322</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1740130676911</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740130676911</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

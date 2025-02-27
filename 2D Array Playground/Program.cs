@@ -24,8 +24,7 @@ namespace _2DArray_playground
             {
                 for (int j = 0; j < cols; j++)
                 {
-                    grid [i, j] = (i * j);
-                    Console.WriteLine(grid [i, j]);
+                    grid[i, j] = (i * j);
 
                     if (grid[i, j] == 0)
                     {
@@ -40,7 +39,11 @@ namespace _2DArray_playground
                     {
                         grid [i, j] = 3;
                     }
+                    Console.Write(grid[i, j] + " ");
                 }
+                Console.WriteLine();
+
+                
             }
         }
     }
