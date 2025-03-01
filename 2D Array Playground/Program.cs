@@ -19,35 +19,30 @@ namespace _2DArray_playground
             int cols = int.Parse(Console.ReadLine());
             
             int [,] grid = new int[rows, cols];
+            Random rand = new Random();
             
             for (int i = 0; i < rows; i++)
             {
                 for (int j = 0; j < cols; j++)
                 {
-                    grid[i, j] = (i * j);
+                    grid[i, j] = new Random().Next(1, 10);
 
-                    if (grid[i, j] == 0)
+                    if (grid[i, j] > 3)
                     {
-                        grid [i, j] = 1;
+                        Console.Write("* ");
                     }
 
-                    if (grid[i, j] == 1)
+                    if (grid[i, j] > 3)
                     {
-                        grid [i, j] = 2;
-                    }
-                    if (grid[i, j] == 2)
-                    {
-                        grid [i, j] = 3;
+                        Console.Write("* ");
                     }
                     else
                     {
-                        grid[i, j] = '*';
+                        Console.Write(grid[i, j] + " ");
                     }
-                    Console.Write(grid[i, j] + " ");
+                    
                 }
                 Console.WriteLine();
-
-                
             }
         }
     }
