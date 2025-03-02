@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Data;
 using System.Drawing;
 using System.Globalization;
+using System.Runtime.InteropServices.JavaScript;
 using System.Text.RegularExpressions;
 using System.Text.Unicode;
 namespace _2DArray_playground
@@ -20,17 +21,19 @@ namespace _2DArray_playground
             
             int [,] grid = new int[rows, cols];
             Random rand = new Random();
-            
+
+            Console.Write("# # ");
             for (int i = 0; i < rows; i++)
             {
+                Console.Write("# ");
+            }
+            Console.WriteLine("# ");
+            for (int i = 0; i < rows; i++)
+            {
+                Console.Write("# "); // the left border
                 for (int j = 0; j < cols; j++)
                 {
                     grid[i, j] = new Random().Next(1, 10);
-
-                    if (grid[i, j] > 3)
-                    {
-                        Console.Write("* ");
-                    }
 
                     if (grid[i, j] > 3)
                     {
@@ -40,10 +43,16 @@ namespace _2DArray_playground
                     {
                         Console.Write(grid[i, j] + " ");
                     }
-                    
                 }
+                Console.Write("# "); // the right border
                 Console.WriteLine();
             }
+            Console.Write("# ");
+            for (int j = 0; j < cols; j++)
+            {
+                Console.Write("# ");
+            }
+            Console.WriteLine("#");
         }
     }
 }      

@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f26126e5-04aa-4bf9-90d8-e0f6c48aa362" name="Changes" comment="ADDED A SYMBOL TO THE GRID">
+    <list default="true" id="f26126e5-04aa-4bf9-90d8-e0f6c48aa362" name="Changes" comment="Added a Random function.">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D Array Playground/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D Array Playground/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2D Array Playground/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2D Array Playground/Program.cs" afterDir="false" />
     </list>
@@ -34,6 +34,9 @@
     &quot;accountId&quot;: &quot;97f08217-36f9-41b3-b200-01c3c9af9d33&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/2D Array Playground/Program.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -91,7 +94,7 @@
       <workItem from="1740040679060" duration="1353000" />
       <workItem from="1740043440723" duration="1101000" />
       <workItem from="1740129853573" duration="868000" />
-      <workItem from="1740684379043" duration="2342000" />
+      <workItem from="1740684379043" duration="6395000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -141,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740685415511</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added a Random function.">
+      <option name="closed" value="true" />
+      <created>1740870870975</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740870870975</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,20 +165,21 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="Added Console.Write &amp; Console.WriteLine" />
     <MESSAGE value="ADDED A SYMBOL TO THE GRID" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADDED A SYMBOL TO THE GRID" />
+    <MESSAGE value="Added a Random function." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a Random function." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/2D Array Playground/Program.cs</url>
-          <line>43</line>
+          <line>42</line>
           <properties documentPath="$PROJECT_DIR$/2D Array Playground/Program.cs" containingFunctionPresentation="Method 'Main'">
             <startOffsets>
-              <option value="1317" />
+              <option value="1315" />
             </startOffsets>
             <endOffsets>
-              <option value="1318" />
+              <option value="1316" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />
