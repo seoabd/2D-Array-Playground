@@ -1,17 +1,7 @@
-﻿using System.Collections.ObjectModel;
-using System.ComponentModel.DataAnnotations;
-using System.Data;
-using System.Drawing;
-using System.Globalization;
-using System.Runtime.InteropServices.JavaScript;
-using System.Text.RegularExpressions;
-using System.Text.Unicode;
-namespace _2DArray_playground
-
+﻿namespace TwoDimensionalArrayPlayground
 {
     class Array
     {
-
         private static void Main(string[] args)
         {
             Console.Write("How many rows do you want to add: ");
