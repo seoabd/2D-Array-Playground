@@ -24,6 +24,7 @@
                 for (int j = 0; j < cols; j++)
                 {
                     grid[i, j] = new Random().Next(1, 5);
+                    grid[i, j] = i + j;
 
                     if (grid[i, j] > 3)
                     {

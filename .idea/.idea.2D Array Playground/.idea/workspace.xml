@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f26126e5-04aa-4bf9-90d8-e0f6c48aa362" name="Changes" comment="Removed some codeblock that i wasnt using it and made it cleaner">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.2D Array Playground/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D Array Playground/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2D Array Playground/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2D Array Playground/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="f26126e5-04aa-4bf9-90d8-e0f6c48aa362" name="Changes" comment="Added some conditions, removed the unneccerry code blocks." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +32,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/vjosaselimi/RiderProjects/2D Array Playground/2D Array Playground/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/2D Array Playground/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -94,7 +92,7 @@
       <workItem from="1740040679060" duration="1353000" />
       <workItem from="1740043440723" duration="1101000" />
       <workItem from="1740129853573" duration="868000" />
-      <workItem from="1740684379043" duration="7674000" />
+      <workItem from="1740684379043" duration="9337000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -168,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741028819678</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added some conditions, removed the unneccerry code blocks.">
+      <option name="closed" value="true" />
+      <created>1741294449480</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741294449480</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,20 +190,21 @@
     <MESSAGE value="Added a Random function." />
     <MESSAGE value="Put the grid in a border of #" />
     <MESSAGE value="Removed some codeblock that i wasnt using it and made it cleaner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed some codeblock that i wasnt using it and made it cleaner" />
+    <MESSAGE value="Added some conditions, removed the unneccerry code blocks." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some conditions, removed the unneccerry code blocks." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/2D Array Playground/Program.cs</url>
-          <line>33</line>
+          <line>37</line>
           <properties documentPath="$PROJECT_DIR$/2D Array Playground/Program.cs" containingFunctionPresentation="Method 'Main'">
             <startOffsets>
-              <option value="1086" />
+              <option value="1188" />
             </startOffsets>
             <endOffsets>
-              <option value="1087" />
+              <option value="1189" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />
