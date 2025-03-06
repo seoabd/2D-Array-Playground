@@ -10,9 +10,9 @@
             int cols = int.Parse(Console.ReadLine());
             
             int [,] grid = new int[rows, cols];
-            Random rand = new Random();
-
-            Console.Write("# # ");
+            
+            Console.Write("# # "); // upper border
+            
             for (int i = 0; i < rows; i++)
             {
                 Console.Write("# ");
@@ -23,26 +23,31 @@
                 Console.Write("# "); // the left border
                 for (int j = 0; j < cols; j++)
                 {
-                    grid[i, j] = new Random().Next(1, 10);
+                    grid[i, j] = new Random().Next(1, 5);
 
                     if (grid[i, j] > 3)
                     {
                         Console.Write("* ");
                     }
+
+                    if (grid[i, j] == 1)
+                    {
+                        Console.Write("! ");
+                    }
                     else
                     {
-                        Console.Write(grid[i, j] + " ");
+                        Console.Write(grid[i, j] + " "); //prints the random numbers
                     }
                 }
                 Console.Write("# "); // the right border
                 Console.WriteLine();
             }
-            Console.Write("# ");
+            Console.Write("# "); //the down border
             for (int j = 0; j < cols; j++)
             {
                 Console.Write("# ");
             }
-            Console.WriteLine("#");
+            Console.WriteLine("# ");
         }
     }
 }      
